@@ -1,0 +1,599 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: #000;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+#navBar {
+  background: #000;
+}
+.navWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+#navBar ul {
+}
+.list {
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+  padding: 4px;
+  border-radius: 39px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.list li {
+  padding: 8px 20px;
+  margin-left: 47px;
+}
+#navBar .customizeli {
+  margin-left: 0;
+}
+
+.list a {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+}
+.list li:hover {
+  background-color: #e6533c;
+  border-radius: 46px;
+}
+.list li:hover a {
+  font-weight: 600;
+}
+/* navbar End */
+
+/* banner part Start */
+#banner {
+  background: #000;
+}
+#banner .bannerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#banner .leftpart {
+  max-width: 520px;
+}
+#banner .leftpart h1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 78px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 93.6px */
+  margin-bottom: 28px;
+}
+#banner .leftpart h1 span {
+  font-family: "Miama", sans-serif;
+  color: #fff;
+  font-family: Miama;
+  font-size: 78px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+#banner .leftpart p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+  margin-bottom: 28px;
+}
+#banner .leftpart a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 122.222% */
+  padding: 16px 40px;
+  border-radius: 42px;
+  border: 1px solid #FFF;
+  margin-right: 14px;
+  transition: 0.3s;
+}
+#banner .leftpart a:hover{
+  background: #e6533c;
+  border: hidden;
+}
+#banner .rightpart {
+  position: relative;
+}
+#banner .floatCount {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  max-width: 193px;
+  padding: 17px 23px 16px 24px;
+  position: absolute;
+  top: 124px;
+  right: -74px;
+}
+#banner .floatCount h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px; /* 100% */
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+#banner .floatCount p {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 153.846% */
+  letter-spacing: 1px;
+}
+#banner .countNewPosition {
+  top: 421px;
+  left: -141px;
+}
+/* banner part End */
+
+/* Habbit part Start */
+#habit {
+  background: #000;
+  padding: 100px 0;
+}
+#habit .circleWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#habit .habbitWrapper h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 57.6px */
+  margin-bottom: 24px;
+  text-align: center;
+}
+#habit .habbitWrapper p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.3px;
+  max-width: 671px;
+  margin: 0 auto;
+}
+#habit .circleWrapper {
+  margin-top: 54px;
+}
+#habit .circle {
+  max-width: 231px;
+}
+#habit .Rectangle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid rgba(211, 211, 211, 0.5);
+  /* background: url(./images/changehabitone.png); */
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+}
+#habit .circle h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  line-height: 120%; /* 21.6px */
+  margin-top: 30px;
+  margin-bottom: 6px;
+}
+#habit .circle p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: 0.3px;
+}
+
+/* Habbit part End */
+
+/* Run Part Start */
+#Run {
+  padding: 100px 0;
+  background: #000;
+}
+#Run .runWrapper {
+  border-radius: 18px;
+  background: #222;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 32px 29px 54px;
+}
+#Run .runleftpart {
+  max-width: 443px;
+}
+#Run .runleftpart h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 57.6px */
+  margin-bottom: 14px;
+}
+#Run .runleftpart h2 span {
+  display: block;
+}
+#Run .runleftpart p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.3px;
+  margin-bottom: 34px;
+}
+#Run .runleftpart a {
+  display: inline-block;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 122.222% */
+  border-radius: 42px;
+  background: #e6533c;
+  padding: 16px 71.5px;
+}
+
+/* Run Part End */
+
+/* Training Part Start */
+#Training {
+  background: #000;
+}
+#Training .trainingWrapper h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 57.6px */
+  margin-bottom: 14px;
+}
+#Training .trainingWrapper p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.3px;
+  max-width: 671px;
+  margin-bottom: 58px;
+}
+#Training .imageSection {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Training Part End */
+
+/* BMI Part Start */
+#BMI {
+  padding-top: 78px;
+}
+#BMI .textBMI {
+  margin-left: 195.5px;
+}
+#BMI .textBMI h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 57.6px */
+  margin-bottom: 14px;
+}
+#BMI .textBMI p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.3px;
+  max-width: 671px;
+  margin-bottom: 88px;
+}
+#BMI .backgroundColor {
+  background: #222;
+}
+#BMI .leftPart h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 33.6px */
+  margin-bottom: 52px;
+}
+table,
+td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+}
+td {
+  padding: 15px 70px 15px 18px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+}
+thead td {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+}
+#BMI .rightPart h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 33.6px */
+  margin-bottom: 14px;
+}
+#BMI .rightPart p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.3px;
+  max-width: 577px;
+  margin-bottom: 34px;
+}
+#BMI .form {
+  width: 282.5px;
+  height: 48px;
+}
+#BMI .form input {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 40px 12px 20px;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+#BMI .form input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}
+#BMI .lowerWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 52px 0;
+}
+#BMI .formWrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+#BMI .customClass {
+  width: 100%;
+  position: relative;
+}
+#BMI .customClassSex {
+  position: relative;
+}
+#BMI .customClassSex i {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+#BMI .customClass i {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+#BMI .rightPart a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 122.222% */
+  padding: 16px 40px;
+  border-radius: 42px;
+  background: #e6533c;
+  margin-top: 22px;
+  display: inline-block;
+}
+
+/* BMI Part End */
+
+/* Team Part Start */
+#Team .textHeading {
+  text-align: center;
+}
+#Team {
+  padding: 88px 0;
+}
+#Team .textHeading h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 57.6px */
+  margin-bottom: 14px;
+}
+#Team .textHeading p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.3px;
+
+  max-width: 671px;
+  margin: 0 auto;
+}
+#Team .imagePart {
+  padding: 20px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 75px;
+  margin-top: 58px;
+}
+#Team .image {
+  width: 272px;
+  position: relative;
+}
+#Team .personInfo h4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 24px */
+}
+#Team .personInfo p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+}
+#Team .personInfo {
+  position: absolute;
+  bottom: 16px;
+  left: 19px;
+}
+/* Team Part End */
+
+/* Foot Part Start */
+#Footer {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 66px 0 35px 0;
+}
+#Footer .footerWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 79px;
+}
+#Footer .firstPart img {
+  margin-bottom: 20px;
+}
+#Footer .firstPart{
+  margin-right: 102px;
+}
+#Footer .firstPart p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.3px;
+  width: 443px;
+  
+}
+#Footer .secondPart{
+  width: 181px;
+  margin-right: 152px;
+}
+#Footer .secondPart h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 38.4px */
+  margin-bottom: 39px;
+  
+}
+#Footer .secondPart li {
+  margin-bottom: 20px;
+}
+#Footer .secondPart a {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 27.6px */
+}
+#Footer .third{
+  margin-right: 0;
+}
+#Footer .line{
+  width: 100%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.10);
+  margin-bottom: 36px;
+}
+#Footer .copyrightText{
+  color: rgba(255, 255, 255, 0.50);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 120% */
+letter-spacing: 0.3px;
+text-align: center
+}
+/* Foot Part End */;
