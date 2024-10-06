@@ -33,6 +33,10 @@
     display: block;
     text-align: center;
   }
+  .list li {
+  padding: 8px 20px;
+  margin-left: 0;
+}
 
   /* navbar End */
 
@@ -68,6 +72,9 @@
   }
   #banner .link a:nth-child(1) {
     display: none;
+  }
+  #banner .link a:nth-child(2) {
+    display: inline-block;
   }
   #banner .floatCount h3 {
     color: #fff;

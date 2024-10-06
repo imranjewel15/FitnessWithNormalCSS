@@ -58,13 +58,14 @@ a {
 .list li:hover a {
   font-weight: 600;
 }
-.hamburger{
-display: none;
+.hamburger {
+  display: none;
 }
-.bar{
+.bar {
   display: block;
-  width: 20px;
+  width: 25px;
   height: 3px;
+transition: 0.3s;
   border-radius: 20px;
   background: #fff;
   margin: 5px auto;
@@ -82,6 +83,9 @@ display: none;
 }
 #banner .leftpart {
   max-width: 520px;
+}
+#banner .link a:nth-child(2) {
+  display: none;
 }
 #banner .leftpart h1 {
   color: #fff;
@@ -120,11 +124,11 @@ display: none;
   line-height: 22px; /* 122.222% */
   padding: 16px 40px;
   border-radius: 42px;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   margin-right: 14px;
   transition: 0.3s;
 }
-#banner .leftpart a:hover{
+#banner .leftpart a:hover {
   background: #e6533c;
   border: hidden;
 }
@@ -549,7 +553,7 @@ thead td {
 #Footer .firstPart img {
   margin-bottom: 20px;
 }
-#Footer .firstPart{
+#Footer .firstPart {
   margin-right: 102px;
 }
 #Footer .firstPart p {
@@ -561,9 +565,8 @@ thead td {
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.3px;
   width: 443px;
-  
 }
-#Footer .secondPart{
+#Footer .secondPart {
   width: 181px;
   margin-right: 152px;
 }
@@ -575,7 +578,6 @@ thead td {
   font-weight: 700;
   line-height: 120%; /* 38.4px */
   margin-bottom: 39px;
-  
 }
 #Footer .secondPart li {
   margin-bottom: 20px;
@@ -588,23 +590,23 @@ thead td {
   font-weight: 400;
   line-height: 120%; /* 27.6px */
 }
-#Footer .third{
+#Footer .third {
   margin-right: 0;
 }
-#Footer .line{
+#Footer .line {
   width: 100%;
   height: 2px;
-  background: rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.1);
   margin-bottom: 36px;
 }
-#Footer .copyrightText{
-  color: rgba(255, 255, 255, 0.50);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 120% */
-letter-spacing: 0.3px;
-text-align: center
+#Footer .copyrightText {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.3px;
+  text-align: center;
 }
-/* Foot Part End */;
+/* Foot Part End */
