@@ -11,6 +11,7 @@
 <link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet">
                 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
   </head>
   <body>
     <header>
@@ -20,11 +21,16 @@
             <img src="./images/logo.png" alt="Logo" />
             
             <ul class="list">
-              <li class="customizeli"><a href="#"> Home </a></li>
-              <li><a href="#"> Service </a></li>
-              <li><a href="#"> Contact </a></li>
-              <li><a href="#"> About </a></li>
+              <li class="customizeli "><a class="navlink" href="#"> Home </a></li>
+              <li><a class="navlink" href="#"> Service </a></li>
+              <li><a class="navlink" href="#"> Contact </a></li>
+              <li><a class="navlink" href="#"> About </a></li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
           </div>
         </div>
       </nav>
@@ -36,8 +42,11 @@
                     <div class="leftpart">
                         <h1>Get body in <span>shape</span>  & stay healthy</h1>
                         <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                        <div class="link">
                         <a href="#">Join Club Now!</a>
+                        <a href="#">Join Now</a>
                         <a href="#">Download App</a>
+                        </div>
                     </div>
                     <div class="rightpart">
                         <div class="image">
@@ -225,7 +234,7 @@
                             </div>
                             <div class="formWrapper">
                                 <div class="form customClass">
-                                    <input type="text" placeholder="Height/cm">
+                                    <input type="text" placeholder="Select an activity factor">
                                     <i class="fa-solid fa-chevron-down"></i>
                                     
                                 </div>                                    
@@ -342,5 +351,7 @@
 
         </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

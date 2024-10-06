@@ -58,6 +58,17 @@ a {
 .list li:hover a {
   font-weight: 600;
 }
+.hamburger{
+display: none;
+}
+.bar{
+  display: block;
+  width: 20px;
+  height: 3px;
+  border-radius: 20px;
+  background: #fff;
+  margin: 5px auto;
+}
 /* navbar End */
 
 /* banner part Start */
