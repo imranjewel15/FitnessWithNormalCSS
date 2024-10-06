@@ -1,230 +1,225 @@
-@media (min-width:320px) and (max-width:575px){
-    /* navbar Start */
-    .hamburger{
-        display: block;
-    }
-    .hamburger.active .bar:nth-child(2){
-        opacity: 0;
-    }
-    .hamburger.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    .hamburger.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
+@media (min-width: 320px) and (max-width: 575px) {
+  /* navbar Start */
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
 
-    .list{
-        position: fixed;
-        left: -100%;
-        top: 60px;
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        background: #000;
-        border-radius: 0;
-        align-items:center;
-        justify-content: center;
-        text-align: center;
-        
-    }
-    .list.active{
-        left: 0;
-    }
-    .list a{
-        display: block;
-        text-align: center;
-    }
-}
+  .list {
+    position: fixed;
+    left: -100%;
+    top: 60px;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background: #000;
+    border-radius: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .list.active {
+    left: 0;
+  }
+  .list a {
+    display: block;
+    text-align: center;
+  }
 
- /* navbar End */
+  /* navbar End */
 
- /* Banner Start */
-#banner .bannerWrapper{
+  /* Banner Start */
+  #banner .bannerWrapper {
     flex-direction: column;
     margin-top: 51px;
-}
-#banner .leftpart h1{
-    color: #FFF;
+  }
+  #banner .leftpart h1 {
+    color: #fff;
     font-family: Inter;
     font-size: 36px;
     font-style: normal;
     font-weight: 900;
     line-height: 120%; /* 43.2px */
     width: 285px;
-}
-#banner .leftpart p{
-    color: rgba(255, 255, 255, 0.50);
+  }
+  #banner .leftpart p {
+    color: rgba(255, 255, 255, 0.5);
 
-/* body-text */
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.5px;
+    /* body-text */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.5px;
     width: 274px;
-}
+  }
 
-#banner .leftpart a{
+  #banner .leftpart a {
     display: inline-block;
-}
-#banner .link a:nth-child(1){
-   display: none;
-}
-#banner .floatCount h3 {
-    color: #FFF;
+  }
+  #banner .link a:nth-child(1) {
+    display: none;
+  }
+  #banner .floatCount h3 {
+    color: #fff;
     font-family: Inter;
     font-size: 30.241px;
     font-style: normal;
     font-weight: 900;
     line-height: 30.241px; /* 100% */
     letter-spacing: 0.756px;
-}
-#banner .floatCount {
+  }
+  #banner .floatCount {
     max-width: 145px;
     padding: 12px 18px;
     top: 60px;
     right: 0;
-}
-#banner .countNewPosition {
+  }
+  #banner .countNewPosition {
     left: 12px;
     top: 293px;
-}
+  }
 
- /* Banner End */
+  /* Banner End */
 
- /* habbit Start */
- #habit .habbitWrapper h2 {
-    color: #FFF;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 900;
-line-height: 120%; /* 38.4px */
-text-align: center;
-margin-bottom: 14px;
-}
+  /* habbit Start */
+  #habit .habbitWrapper h2 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 38.4px */
+    text-align: center;
+    margin-bottom: 14px;
+  }
 
-#habit {
+  #habit {
     padding: 0;
-}
+  }
 
-#habit .habbitWrapper p{
+  #habit .habbitWrapper p {
     width: 316px;
-}
-#habit .circleWrapper {
+  }
+  #habit .circleWrapper {
     flex-direction: column;
     text-align: center;
     row-gap: 40px;
-}
-#habit .circle p {
+  }
+  #habit .circle p {
     width: 216px;
-}
+  }
 
-    
- /* habbit End */
+  /* habbit End */
 
-/* Run Start */
-#Run .runWrapper {
+  /* Run Start */
+  #Run .runWrapper {
     flex-direction: column;
     row-gap: 31px;
     margin: 33px;
-}
+  }
 
-#Run .runleftpart h2 {
-color: #FFF;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 900;
-line-height: 120%; /* 38.4px */     
-}
-#Run .runleftpart a {
+  #Run .runleftpart h2 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 38.4px */
+  }
+  #Run .runleftpart a {
     display: block;
     text-align: center;
-}
-#Run .runrightpart{
+  }
+  #Run .runrightpart {
     width: 100%;
-}
-#Run .runrightpart img{
+  }
+  #Run .runrightpart img {
     width: 100%;
     height: auto;
-}
-/* Run End */
+  }
+  /* Run End */
 
-/* Training Start */
+  /* Training Start */
 
-#Training .trainingWrapper h2 {
-
+  #Training .trainingWrapper h2 {
     font-size: 32px;
     width: 331px;
-    
-}
+  }
 
-#Training .trainingWrapper p {
+  #Training .trainingWrapper p {
     font-size: 14px;
     width: 331px;
-    
-}
-#Training .ThirdOneImage{
+  }
+  #Training .ThirdOneImage {
     display: none;
-}
-#Training .SecondOneImage img{
- width: 205px;
- height: 202px;
- 
-}
-#Training .FirstOneImage, .SecondOneImage, .ThirdOneImage{
+  }
+  #Training .SecondOneImage img {
+    width: 205px;
+    height: 202px;
+  }
+  #Training .FirstOneImage,
+  .SecondOneImage,
+  .ThirdOneImage {
     width: 50%;
-}
-#Training .imageSection {
+  }
+  #Training .imageSection {
     column-gap: 0;
     row-gap: 0;
-}
-/* Training End */
-/* BMI Start */
-#BMI .textBMI {
+  }
+  /* Training End */
+  /* BMI Start */
+  #BMI .textBMI {
     margin-left: 0;
-}
-#BMI {
+  }
+  #BMI {
     padding-top: 22px;
-}
-#BMI .textBMI p{
-width: 353px;
-margin-bottom: 32px;
-}
-#BMI .lowerWrapper {
+  }
+  #BMI .textBMI p {
+    width: 353px;
+    margin-bottom: 32px;
+  }
+  #BMI .lowerWrapper {
     display: flex;
     justify-content: space-between;
     padding: 52px 0;
     flex-direction: column;
     row-gap: 42px;
-}
-#BMI .leftPart h3 {
-    color: #FFF;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 900;
-line-height: 120%; /* 19.2px */
-margin-bottom: 23px;
-}
-#BMI .rightPart h3 {
-    color: #FFF;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 900;
-line-height: 120%; /* 19.2px */
-}
-#BMI .rightPart p{
+  }
+  #BMI .leftPart h3 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 19.2px */
+    margin-bottom: 23px;
+  }
+  #BMI .rightPart h3 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 19.2px */
+  }
+  #BMI .rightPart p {
     width: 336px;
-}
-#BMI .form {
+  }
+  #BMI .form {
     width: auto;
     height: 48px;
-}
-#BMI .form input {
+  }
+  #BMI .form input {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     padding: 12px 40px 12px 20px;
@@ -232,42 +227,42 @@ line-height: 120%; /* 19.2px */
     width: 100%;
     height: auto;
     display: inline-block;
-}
-#BMI .customClass {
+  }
+  #BMI .customClass {
     width: 100%;
     display: block;
-}
-/* BMI End */
+  }
+  /* BMI End */
 
-/* Team Start */
-#Team .textHeading h3 {
-    color: #FFF;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 900;
-line-height: 120%; /* 38.4px */
-}
-#Team .textHeading p {
-    
+  /* Team Start */
+  #Team .textHeading h3 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 38.4px */
+  }
+  #Team .textHeading p {
     max-width: 100%;
     margin: 0 auto;
-}
-#Team .imagePart {
+  }
+  #Team .imagePart {
     width: 100%;
-}
-#Team .image {
+  }
+  #Team .image {
     width: 100%;
     position: relative;
     text-align: center;
-}
-#Team .personInfo {
+  }
+  #Team .personInfo {
     position: absolute;
     bottom: 16px;
     left: 20%;
-}
-/* Team End */
-#Footer .footerWrapper {
+  }
+  /* Team End */
+  #Footer .footerWrapper {
     flex-direction: column;
     row-gap: 30px;
+  }
 }
